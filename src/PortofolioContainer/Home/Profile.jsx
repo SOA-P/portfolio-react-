@@ -16,9 +16,6 @@ const Profile = () => {
               <a href="https://www.linkedin.com/in/n%C3%A9dim-amajoud-322154246/">
                 <i className="fa fa-linkedin-square"></i>
               </a>
-              <a href="https://www.instagram.com/nedim.a_/">
-                <i className="fa fa-instagram"></i>
-              </a>
             </div>
           </div>
         </div>
