@@ -37,13 +37,14 @@ const Profile = () => {
               {" "}
               <Typical
                 loop={Infinity}
+                wrapper="b"
                 steps={[
                   "Magical Dev 🧙🏽‍♂️",
                   1000,
-                  "FullStack JS Developper💻",
-                  1000,
-                  "React Native Developper 📱",
-                  1000,
+                  "FullStack Developper💻",
+                  500,
+                  "React.Js Developper 📱",
+                  0,
                 ]}
               />
             </h1>
