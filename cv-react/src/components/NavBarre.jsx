@@ -11,9 +11,9 @@ const NavBarre = () => {
   return (
     <div className="header">
       <Link to="/">
-        <h1>Portfolio</h1>
+        <h1>Nédim Amajoud</h1>
       </Link>
-      <ul className="nav-menu">
+      <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -27,7 +27,7 @@ const NavBarre = () => {
           <Link to="/Contact">Contact </Link>
         </li>
       </ul>
-      <div className="Hamburger">
+      <div className="Hamburger" onClick = {handleClick}>
         {click ? (<FaTimes size={20} style={{ color:"fff"}}/>)
          : ( <FaBars size={20} style={{ color:"fff"}}/>)}
       </div>
