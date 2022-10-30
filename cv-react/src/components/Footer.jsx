@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="location">
                     <div className="left">
-                        <FaHome size={40} style={{ color: "#fff", marginRight: "1rem" }} />{" "}
+                        <FaHome size={20} style={{ color: "#fff", marginRight: "1rem" }} />{" "}
                         <div>
                             <p>Student Wild Code School</p>
                             <p>France. Lille</p>
@@ -25,7 +25,7 @@ const Footer = () => {
                                 <FaPhone
                                     size={20}
                                     style={{ color: "#fff", marginRight: "1rem" }}
-                                />{" "}
+                                />
                                 <p>07.49.70.48.47</p>
                             </h4>
                         </div>
@@ -34,8 +34,8 @@ const Footer = () => {
                                 <FaMailBulk
                                     size={20}
                                     style={{ color: "#fff", marginRight: "1rem" }}
-                                />{" "}
-                                <p> amajoudnedev@gmail.com</p>
+                                />
+                                <p>amajoudnedev@gmail.com</p>
                             </h4>
                         </div>
                     </div>

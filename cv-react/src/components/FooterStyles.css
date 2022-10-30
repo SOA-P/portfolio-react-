@@ -6,7 +6,8 @@
 .footer-container{
     max-width: 1140px;
     margin: auto;
-    display: grid;
+    display: flex;
+    justify-content: center;
     grid-template-columns:repeat(2,1fr);
     grid-gap:40px;
 }
@@ -28,10 +29,11 @@
     line-height: 30px;
 }
 
-.right{
+.footer-container .right{
     height: 100%;
     max-width: 100%;
     display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
     padding: 2rem;
 }
