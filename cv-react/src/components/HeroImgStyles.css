@@ -17,8 +17,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #000;
-    opacity: 0,8;
+    background-color: black;
+    opacity: 0.8;
 }
 
 .hero{
@@ -44,4 +44,12 @@
 }
 .content .btn{
     margin:1rem 0.2rem;
+}
+@media screen and (max-width:640px) {
+    .hero .content .h1{
+        font-size: 3rem;
+    }
+    .hero .content .p{
+        font-size:1.4rem;
+    }
 }
