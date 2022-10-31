@@ -16,7 +16,7 @@ const HeroImg = () => {
                 <h1>REACT DEVELOPER.</h1>
                 <div>
                     <Link to="/project"
-                    className="btn">Projects</Link>
+                    className="btn">Projets</Link>
                     <Link to="/Contact"
                     className="btn btn-light">Contact</Link>
                 </div>

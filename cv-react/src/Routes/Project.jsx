@@ -10,7 +10,7 @@ const Project = () => {
     return (
         <div>
             <NavBarre />
-            <HeroImg2 heading="PROJECTS." text="Un clin d'oeil sur mes récents travaux personnels." />
+            <HeroImg2  text="Un clin d'oeil sur mes récents projets." />
             <Work/>
             <PriceCard/>
             <Footer />
