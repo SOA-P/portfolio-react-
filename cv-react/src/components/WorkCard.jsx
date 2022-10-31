@@ -12,7 +12,7 @@ const WorkCard = (props) => {
                     <img src={props.imgsrc} alt="image" />
                     <h2 className='project-title'>{props.title}</h2>
                     <div className='pro-details'>
-                        <p>this one text.</p>
+                        <p>this a text.</p>
                         <div className='pro-btns'>
                             <NavLink to="url.com" className="btn">View</NavLink>
                             <NavLink to="url.com" className="btn">Source</NavLink>

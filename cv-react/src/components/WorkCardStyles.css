@@ -7,8 +7,8 @@
     margin: auto;
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap:40px;
-    padding-bottom: 5rem;
+    grid-gap:50px;
+    padding-bottom: 2rem;
 }
 
 .project-card{
@@ -17,6 +17,7 @@
 }
 .project-card img{
     width: 100%;
+    height: auto;
 }
 .project-title{
     color:#fff;
@@ -31,13 +32,12 @@
 .pro-btns{
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 0;
-}
-.pro-btns{
-    padding:0.5rem 1rem;
+    padding: 1rem 0;
 }
 
-
+.btn{
+    margin-left: 10px;
+}
 
 
 @media screen  and (max-width:740px){
