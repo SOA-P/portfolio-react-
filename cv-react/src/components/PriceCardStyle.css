@@ -23,6 +23,7 @@
 .card h3{
     font-size: 1.4rem;
     padding: 1rem;
+    color: #eee;
 }
 .card p{
     padding: 5px 0;
@@ -52,8 +53,11 @@
 
 @media screen and ( max-width: 740px) {
     .card-container{
-        min-width: 90%;
+        min-width: 70%;
         margin: auto;
-        grid-template-columns: repeat(3,1fr);
+        display: block;  
+    }
+    .card {
+        margin: 20px;
     }
 }
